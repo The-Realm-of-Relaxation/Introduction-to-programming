@@ -86,3 +86,21 @@ while a < 5:
     a = a + 1
 
 print("a is no longer less than 5, because it is:", a)
+
+
+# --------------- Simple math ---------------
+a = 1 + 1  # a is 2
+b = 4 - 2  # b is 2
+c = 1 * 4  # c is 4
+d = 10 / 5  # d is 2
+e = 1 / 3  # e is 0.333333...
+
+# % is the mathematical operator for modulo.
+# Modulo gives you the remainder after a division
+# Since 4 / 2 is 2, there is no reminder
+f = 4 % 2  # f is 0
+
+# If you divide 7 by 3, you end up with a 1 left over
+# That is what modulo calculates for you
+g = 7 % 3  # g is 1
+h = 8 % 3  # h is 2, because you can divide 6 by 3, and 8 is 6 + 2
